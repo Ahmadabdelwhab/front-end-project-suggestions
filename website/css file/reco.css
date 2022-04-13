@@ -1,0 +1,158 @@
+
+/*********************** main **************************/
+
+#randomContainer
+{
+    border :0px;
+    padding-top: 10px;
+    margin : auto ;
+    margin-top:-80px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color :black;
+    justify-content:space-between;
+    background-size: cover;
+    width:75%;
+    border-radius : 100px;
+    margin-bottom: 30px;
+    margin-left:52.5%;
+    
+    
+    
+    
+}
+#site{
+    font-size: 60px;
+    text-decoration: none;
+    color:white;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    
+    
+}
+
+#siteimg{
+    width: 700px;
+    margin: 50px 50px 20px 50px;
+    margin-top: 1px;
+    border-radius: 100px;
+    box-shadow: 25px 15px rgba(0, 0, 0, 0.5) ;
+
+  
+
+    
+    
+}
+#gnbtn{
+    font-size:25px;
+    width: 300px;
+    padding: 10px;
+    background-color:rgba(255,255,255, 0.65);;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border:none;
+}
+#gnbtn:hover{
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    animation: heartbeat 1s ease 0s 1 ;
+    letter-spacing: 2px;
+
+}
+
+
+#last-footer{
+    height:150px;
+    width: 100%;
+    border-top:1px solid red;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: white;
+
+
+ 
+}
+#logo{
+width: 25%;
+height: 50%;
+margin:10px;
+padding-top: 40px;
+}
+#logo h1{
+    color: rgb(14, 1, 1);
+    float: left;
+    padding-left: 10px;
+}
+
+#logo img{
+    float: left;
+    border-radius: 100%;
+}
+#center{
+    width: 50%;
+    height: 50%;
+    margin:10px;
+    padding-top: 50px;
+
+    
+}
+#center a{
+    color: rgb(10, 9, 9);
+    padding: 10px;
+    text-decoration: none;
+}
+#center a:hover{
+    color: aqua;
+    transition: 0.3s ease-in-out;
+}
+#icons{
+    width: 25%;
+    height: 50%;
+    margin:10px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#icons img{
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    margin: 0px 5px;
+    border: none;
+    
+}
+#icons img:hover{animation: heartbeat 1s ease-in-out 0s 2 ;}
+
+#last-box{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border: none;
+}
+#copy{
+    float: right;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+  #policy a ,#terms a{
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;
+    padding-top: 50px;
+    display: inline-block;
+
+    
+   
+}
+#terms{
+    padding-top: 50px;
+
+}
+
+
+@-webkit-keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}

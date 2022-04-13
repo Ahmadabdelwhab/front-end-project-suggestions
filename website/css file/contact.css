@@ -1,0 +1,16 @@
+/*********************** main **************************/
+.videos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+}
+iframe {
+    width: 1000px;
+    height: 440px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    margin-left: 130px;
+  
+}
